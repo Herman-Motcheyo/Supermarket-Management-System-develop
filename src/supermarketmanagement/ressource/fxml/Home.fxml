@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="374.0" style="-fx-background-color: #CCCCCC;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="supermarketmanagement.java.control.HomeController">
+   <children>
+      <HBox layoutY="-2.0" prefHeight="114.0" prefWidth="374.0" style="-fx-background-color: #097eba;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome To Application " wrappingWidth="292.7294921875">
+               <font>
+                  <Font name="Nakula" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets bottom="30.0" left="40.0" top="30.0" />
+               </HBox.margin>
+            </Text>
+         </children>
+         <HBox.margin>
+            <Insets bottom="30.0" left="100.0" top="30.0" />
+         </HBox.margin>
+      </HBox>
+      <Button fx:id="stock" alignment="CENTER" layoutX="82.0" layoutY="150.0" mnemonicParsing="false" onAction="#goToStock" prefHeight="44.0" prefWidth="211.0" style="-fx-background-color: #097eba; -fx-background-radius: 15px;" text="Go to Stock Management" textFill="#f5efef">
+         <font>
+            <Font name="Nakula" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="sold" alignment="CENTER" layoutX="82.0" layoutY="236.0" mnemonicParsing="false" onAction="#goToSold" prefHeight="44.0" prefWidth="211.0" style="-fx-background-color: #097eba; -fx-background-radius: 15px;" text="Go to Sold Management" textFill="#f5efef">
+         <font>
+            <Font name="Nakula" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
